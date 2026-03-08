@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Failure",
+    "description": "User unable to log in with correct credentials; error message 'Invalid session'.",
+    "customer": "john.doe@example.com",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-03-01T08:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Processing Error",
+    "description": "Transaction failed during checkout; card charged but order not placed.",
+    "customer": "jane.smith@example.com",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-03-02T09:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "App Crashing on Startup",
+    "description": "Mobile app crashes immediately after launch on Android devices.",
+    "customer": "alice.johnson@example.com",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-03-03T10:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Forgot Password Link Not Working",
+    "description": "Reset password email link expires instantly or leads to 404 page.",
+    "customer": "bob.brown@example.com",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-03-04T11:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Slow Loading Times",
+    "description": "Website takes over 10 seconds to load on desktop browsers.",
+    "customer": "charlie.davis@example.com",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-03-05T12:15:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect Billing Address",
+    "description": "Order shipped to wrong address despite correct input in profile.",
+    "customer": "diana.evans@example.com",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-03-06T13:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Feature Request: Dark Mode",
+    "description": "Users requesting dark mode toggle for better night-time usability.",
+    "customer": "edward.frank@example.com",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-03-07T14:45:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Email Notifications Delayed",
+    "description": "Confirmation emails arriving hours after actions are completed.",
+    "customer": "fiona.green@example.com",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-03-08T15:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "UI Glitch on Profile Page",
+    "description": "Profile picture upload button overlaps with save changes button.",
+    "customer": "george.harris@example.com",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024-03-09T16:15:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Account Suspension Inquiry",
+    "description": "User account suspended without notice; requesting reinstatement.",
+    "customer": "helen.iris@example.com",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-03-10T17:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Data Sync Issue Across Devices",
+    "description": "Changes on web not reflecting on mobile app in real-time.",
+    "customer": "ian.jack@example.com",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-03-11T18:45:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Refund Request for Duplicate Charge",
+    "description": "Double-charged for subscription renewal; need immediate refund.",
+    "customer": "julia.kelly@example.com",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-03-12T19:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Search Function Not Returning Results",
+    "description": "Internal search bar yields no results even for common terms.",
+    "customer": "kevin.lee@example.com",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-03-13T20:15:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Accessibility Issue: Screen Reader Compatibility",
+    "description": "Screen readers not properly reading alt text on images.",
+    "customer": "laura.martin@example.com",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-03-14T21:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Integration Error with Third-Party API",
+    "description": "API connection failing, causing data import failures.",
+    "customer": "mike.norris@example.com",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2024-03-15T22:45:00Z"
+  }
+]

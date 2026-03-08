@@ -20,8 +20,48 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+  overflow: hidden;
   color: white;
 }
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /
+}
+
+/* Vector Styling */
+.vector {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px; /* Your current size */
+  height: auto;
+  opacity: 0.3;
+  pointer-events: none;
+  color: white; /* Sets currentColor to white */
+  fill: white !important; /* Backup override */
+}
+
+.vector * {
+  fill: currentColor !important; /* Targets all child elements */
+  stroke: currentColor !important;
+}
+
+.left-vector {
+  left: 10px;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.right-vector {
+  right: 10px;
+  transform: translateY(-50%) scaleX(-1);
+}
+/* Vector Styling */
 
 /* In Progress Card */
 
