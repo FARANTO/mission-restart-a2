@@ -2,7 +2,7 @@ import "./Banner.css";
 import  LeftVector  from "../banner/Vector.svg?react"; 
 import  RightVector  from "../banner/Vector 1.svg?react";
 
-function Banner() {
+function Banner({ inProgressCount, resolvedCount }) {
   return (
     <div className="banner">
       <div className="banner-container">
@@ -11,7 +11,7 @@ function Banner() {
         <LeftVector className="vector left-vector" />
         <div className="stat-content">
           <p className="stat-title">In-Progress</p>
-          <h2 className="stat-number">0</h2>
+          <h2 className="stat-number">{inProgressCount}</h2>
           </div>
           <RightVector className="vector right-vector" />
         </div>
@@ -20,7 +20,7 @@ function Banner() {
          <LeftVector className="vector left-vector" /> 
          <div className="stat-content">
           <p className="stat-title">Resolved</p>
-          <h2 className="stat-number">0</h2>
+          <h2 className="stat-number">{resolvedCount}</h2>
         </div>
         <RightVector className="vector right-vector" />
         </div>
