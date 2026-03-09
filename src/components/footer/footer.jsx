@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./footer.css";
 
 import Xicon from "./X.svg?react";
 import LinkedinIcon from "./linkedin.svg?react";
