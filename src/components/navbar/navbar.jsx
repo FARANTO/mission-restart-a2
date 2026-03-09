@@ -1,6 +1,11 @@
+import { useState } from "react";
 import "./navbar.css";
 
+
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -9,7 +14,15 @@ function Navbar() {
           CS — Ticket System
         </div>
 
-        <div className="nav-right">
+        {/* Hamburger */}
+        <div 
+          className="hamburger"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </div>
+
+        <div className={`nav-right ${menuOpen ? "active" : ""}`}>
           <ul className="nav-menu">
             <li>Home</li>
             <li>FAQ</li>
