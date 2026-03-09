@@ -1,4 +1,4 @@
-import "./Banner.css";
+import "./banner.css";
 import  LeftVector  from "../banner/Vector.svg?react"; 
 import  RightVector  from "../banner/Vector 1.svg?react";
 
